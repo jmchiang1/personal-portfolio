@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html 
+lang="en" 
+>
+<!-- class="sr"  -->
+<!-- style="width: fit-content;" -->
 
 <head>
     <meta charset="UTF-8">
@@ -27,7 +31,7 @@
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                     <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> -->
                 </ul>
             </div>
 
@@ -42,23 +46,26 @@
         <section class="home bd-grid" id="home">
             <div class="home__data">
 
-                <h1 class="home__title">Welcome,<br>I'm <span class="home__title-color">Jonathan</span><br> Software Engineer</h1>
-
-                <div class="submit-icons">
-                    <div class="contact-btn">
-                        <a href="assets/img/Jonathan M. Chiang Resume.pdf" target='_blank' class="button" data-icon="akar-icons:download">Resume</a>
-                    </div>
-                    <div class="home__social work__img">
-                        <a href="https://www.linkedin.com/in/jonathan-m-chiang-832686b8/" target="_blank"
-                            class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                        <a href="https://github.com/jmchiang1" target="_blank" class="home__social-icon"><i
-                                class='bx bxl-github'></i></a>
+                <div class="title-icons">
+                    <h1 class="home__title">Welcome,<br>I'm <span class="home__title-color">Jonathan</span><br> Software
+                        Engineer</h1>
+                    <div class="submit-icons">
+                        <div class="contact-btn">
+                            <a href="assets/img/Jonathan M. Chiang Resume.pdf" target='_blank' class="button"
+                                data-icon="akar-icons:download">Resume</a>
+                        </div>
+                        <div class="home__social work__img">
+                            <a href="https://www.linkedin.com/in/jonathan-m-chiang-832686b8/" target="_blank"
+                                class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://github.com/jmchiang1" target="_blank" class="home__social-icon"><i
+                                    class='bx bxl-github'></i></a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="home__img">
+                <!-- <div class="home__img">
                     <img class="cover" src="assets/img/jon.jpeg" alt="">
-                </div>
+                </div> -->
 
             </div>
 
@@ -67,7 +74,7 @@
 
         <!--===== ABOUT =====-->
         <section class="about section " id="about">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title aboutme">About Me</h2>
 
             <div class="about__container bd-grid">
                 <div class="about__img">
@@ -77,8 +84,8 @@
                 <div>
                     <h2 class="about__subtitle">Hello there!</h2>
                     <p class="about__text">After working in the marketing industry post-university, I shifted my
-                        interests from using different softwares to actually building them from scratch! I recently
-                        graduated from Fullstack Academy in May 2021 and am actively looking for full-time work.
+                        interests from using different softwares to actually building them from scratch! I
+                        graduated from Fullstack Academy in May 2021 and am currently working as a Software Engineer at Sombra LLC Network
                         <br>
                         <br>
                         I am super excited about and constantly learning new technologies, building interactive
@@ -165,15 +172,70 @@
             </div>
         </section>
 
+        <!--===== WORK EXPERIENCE =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work Experience</h2>
+
+            <div class="solve-container">
+                <div class="work__img sombra">
+                    <img class="sombra" src="assets/img/sombra.png" alt="">
+                </div>
+
+                <div class="solve-des work__img">
+                    <h2>Sombra LLC</h2>
+                    <br>
+                    <p>Position: Software Engineer</p>
+                    <br>
+                    <p>Dates: September 2021 - Present</p>
+                    <br>
+                    <p>• Utilize Next.js and React to build out various front-end component of the site including a responsive navigation bar, dynamic lazy loaded NFT images, and a social feed with comments/messaging.
+                    </p>
+                    <br>
+                    <p> • Test and implement new features including an accordion navigation, server side rendered meta tags, and conditional icon rendering based on tag filters
+                    </p>
+                    <br>
+                    <p> • Assist the senior developer in maintaining website functionality and resolving user tickets when they arise
+                    </p>
+                    <br>
+                </div>
+            </div>
+
+            <div class="solve-container">
+                <div class="work__img omd">
+                    <img class="omd" src="assets/img/omd.png" alt="">
+                </div>
+                <div class="solve-des work__img">
+                    <h2>OMD USA</h2>
+                    <br>
+                    <p>Position: Marketing Coordinator/Analyst</p>
+                    <br>
+                    <p>Dates: November 2018 - November 2019</p>
+                    <br>
+                    <p>• Paced and optimized 70 daily digital campaigns on Facebook, Instagram, Twitter, and Pinterest,
+                        ensuring they
+                        were delivered in full/on target to pace in full.
+                    </p>
+                    <br>
+                    <p> • Created and trafficked daily campaigns on multiple social media channels, ensuring all creatives, descriptions, target audiences, and locations were correct
+                    </p>
+                    <br>
+                    <p> • Issued weekly campaign reports to clients, ensuring consistency, accuracy, and timeliness with actionable insights
+                    </p>
+                    <br>
+                </div>
+            </div>
+
+            <br>
+        </section>
+
         <!--===== WORK =====-->
         <section class="work section" id="work">
-            <h2 class="section-title">Work</h2>
+            <h2 class="section-title">Projects</h2>
 
             <div class="solve-container">
                 <div class="work__img solveit">
                     <img class="solveit" src="assets/img/Solve.It Banner.png" alt="">
                 </div>
-
                 <div class="solve-des work__img">
                     <p>Solve.It is a platform where users can submit coding problems for other users to solve for
                         compensation</p>
@@ -197,7 +259,7 @@
 
             <br>
 
-            <div class="grace-container">
+            <div class="solve-container">
                 <div class="work__img grace">
                     <img class="grace" src="assets/img/grace-shopper-banner.png" alt="">
                 </div>
@@ -222,7 +284,7 @@
         </section>
 
         <!--===== CONTACT =====-->
-        <section class="contact section" id="contact">
+        <!-- <section class="contact section" id="contact">
             <h2 class="section-title">Contact</h2>
 
             <div class="contact__container bd-grid">
@@ -233,7 +295,7 @@
                     <input type="button" value="Submit" class="contact__button button">
                 </form>
             </div>
-        </section>
+        </section> -->
     </main>
 
     <!--===== SCROLL TO TOP =====-->
