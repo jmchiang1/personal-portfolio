@@ -154,7 +154,7 @@ img.cover {
     height: max-content;
     padding: 2rem;
     background-color: var(--second-color);
-    transition: 0.5s;
+    -webkit-transition: all 0.5s ease-in-out;
     text-align-last: center;
     font-size: x-large;
   }
